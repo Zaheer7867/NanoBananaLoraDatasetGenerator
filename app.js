@@ -179,7 +179,7 @@ Return ONLY valid JSON array:
         model: model,
         system_prompt: systemPrompt,
         prompt: userPrompt,
-        max_tokens: 4000
+        max_tokens: 16000  // High limit for larger batches
     });
     
     // Parse JSON from response
@@ -340,7 +340,7 @@ async function startGeneration() {
     const transformation = document.getElementById('transformation').value.trim();
     const actionName = document.getElementById('actionName').value.trim();
     const triggerWord = document.getElementById('triggerWord').value.trim();
-    const numPairs = parseInt(document.getElementById('numPairs').value) || 20;
+    const numPairs = Math.min(100, parseInt(document.getElementById('numPairs').value) || 20); // Cap at 100
     const maxConcurrent = parseInt(document.getElementById('maxConcurrent')?.value) || 3;
     const aspectRatio = document.getElementById('aspectRatio').value;
     const resolution = document.getElementById('resolution').value;
